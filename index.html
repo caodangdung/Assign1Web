@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website giới thiệu công ty</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+
+
+</head>
+
+<body>
+    <header id="header">
+        <div class="top-bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 d-none d-sm-none d-md-block">
+                        <div class="email">
+                            <p><i class="fa fa fa-envelope"></i> Support@mail.com</p>
+                        </div> |
+                        <div class="phone-number">
+                            <p><i class="fa fa-phone-square"></i> +012 345 6789</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-12 col-xs-12">
+                        <div class="social-search">
+                            <div class="social">
+                                <ul class="social-share">
+                                    <li><a href="#"><i class="fa fa-facebook-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="search">
+                                <form>
+                                    <input type="text" class="search-form" autocomplete="off" placeholder="Search">
+                                    <i class="fa fa-search"></i>
+                                </form>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- <nav class="navbar navbar-inverse" role="banner">
+            <div class="container">
+                <div class="row">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">Website Name</a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="myNavbar">
+                        <ul class="nav navbar-nav">
+                            <li class="active">
+                                <a href="#">Home</a>
+                            </li>
+                            <li><a href="#">About</a></li>
+                            <li><a href="#">Service</a></li>
+                            <li><a href="#">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+
+            </div>
+        </nav> -->
+        <nav class="navbar navbar-expand-md bg-light navbar-light">
+            <!-- Brand -->
+            <div class="container">
+                <a class="navbar-brand" href="index.html">Website Name</a>
+
+                <!-- Toggler/collapsibe Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navbar links -->
+                <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                    <ul class="navbar-nav">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="service.html">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pricing.html">Pricing</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- <section id="my-carousel" class="main-slider">
+        <div class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li class="active" data-target="#my-carousel" data-slide-to="0" aria-current="location"></li>
+                <li data-target="#my-carousel" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/bg1.jpg" alt="bg1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/bg1.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#my-carousel" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#my-carousel" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+    </section> -->
+    <div id="my-carousel" class="carousel slide" data-ride="carousel">
+        <ul class="carousel-indicators">
+            <li data-target="#my-carousel" data-slide-to="0" class="active"></li>
+            <li data-target="#my-carousel" data-slide-to="1"></li>
+            <li data-target="#my-carousel" data-slide-to="2"></li>
+        </ul>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="./images/carousel/bg1.jpg" alt="image">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-info col-md-7 d-none d-sm-none d-md-block">
+                            <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                            <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="col-image col-md-5">
+                            <img src="./images/carousel/img1.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-item">
+                <img src="./images/carousel/bg2.jpg" alt="image">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-info col-md-7 d-none d-sm-none d-md-block">
+                            <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                            <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="col-image col-md-5">
+                            <img src="./images/carousel/img2.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./images/carousel/bg3.jpg" alt="image">
+                <div class="carousel-caption">
+                    <div class="row">
+                        <div class="col-info col-md-7 d-none d-sm-none d-md-block">
+                            <h1 class="animation animated-item-1">Lorem ipsum dolor sit amet consectetur adipisicing elit</h1>
+                            <h2 class="animation animated-item-2">Accusantium doloremque laudantium totam rem aperiam, eaque ipsa...</h2>
+                            <button type="button" class="btn btn-primary btn-lg">
+                                Read More
+                            </button>
+                        </div>
+                        <div class="col-image col-md-5">
+                            <img src="./images/carousel/img3.png" alt="image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <a class="carousel-control-prev" href="#my-carousel" data-slide="prev">
+            <span class="fa fa-chevron-left"></span>
+        </a>
+        <a class="carousel-control-next" href="#my-carousel" data-slide="next">
+            <span class="fa fa-chevron-right"></span>
+        </a>
+
+    </div>
+
+    <div class="feature">
+        <div class="container">
+            <div class="features">
+                <h1>Features</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row top">
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-bullhorn"></i>
+                        <h2>Fresh and Clean</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-comments"></i>
+                        <h2>Retina ready</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-cloud-download"></i>
+                        <h2>Easy to customize</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row bottom">
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-leaf"></i>
+                        <h2>Adipisicing elit</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-cogs"></i>
+                        <h2>Sed do eiusmod</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-wrap">
+                        <i class="fa fa-heart"></i>
+                        <h2>Labore et dolore</h2>
+                        <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="recent-works">
+        <div class="container">
+            <div class="recent">
+                <h1>Recent Works</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item1.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item1.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item2.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item2.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item3.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item3.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item4.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item4.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item5.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item5.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item6.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item6.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item7.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item7.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-6 col-md-6 col-lg-3">
+                    <div class="recent-works-wrap">
+                        <img src="./images/portfolio/recent/item8.png" alt="image">
+                        <div class="overlay">
+                            <h3><a href="#">Business theme</a></h3>
+                            <p>There are many variations of passages of Lorem Ipsum available, but the majority</p>
+                            <a class="preview" data-fancybox="gallery" href="./images/portfolio/full/item8.png"><i class="fa fa-eye"></i> View</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="service">
+        <div class="container">
+            <div class="services">
+                <h1>Our Services</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services1.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services2.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services3.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services4.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services5.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="service-wrap">
+                        <img src="./images/services/services6.png" alt="image">
+                        <div class="service-body">
+                            <h3>SEO Marketing</h3>
+                            <p>Lorem ipsum dolor sit ame consectetur adipisicing elit</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /////////////////////////////// -->
+    <div class="middle">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="skill">
+                        <h2>Our Skill</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                        <div class="progress-wrap">
+                            <h3>Graphic Design</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-primary" style="width: 85%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    85%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3>HTML</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-success" style="width: 85%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    95%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3>CSS</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-warning" style="width: 85%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    75%
+                                </div>
+                            </div>
+                        </div>
+                        <div class="progress-wrap">
+                            <h3>Wordpress</h3>
+                            <div class="progress">
+                                <div class="progress-bar bg-danger" style="width: 85%" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">
+                                    90%
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6">
+                    <div id="accordion">
+                        <h2>Why People like us?</h2>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseOne">
+                                Lorem ipsum dolor sit amet
+                                <span class="fa fa-chevron-right"></span>
+                            </a>
+                            </div>
+                            <div id="collapseOne" class="collapse show" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseTwo">
+                                    Lorem ipsum dolor sit amet
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </div>
+                            <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseThree">
+                                    Lorem ipsum dolor sit amet
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </div>
+                            <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-header">
+                                <a class="card-link" data-toggle="collapse" href="#collapseFour">
+                                    Lorem ipsum dolor sit amet
+                                    <span class="fa fa-chevron-right"></span>
+                                </a>
+                            </div>
+                            <div id="collapseFour" class="collapse" data-parent="#accordion">
+                                <div class="card-body">
+                                    Lorem ipsum..
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ///////////////////////// -->
+    <div class="pricing">
+        <div class="container">
+            <div class="price-head">
+                <h2>Pricing Table</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>
+            </div>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="price-title1">
+                        <h2>Start Up</h2>
+                        <span>$6/Month</span>
+                    </div>
+                    <div class="price-list-item">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-light"><strong>5GB</strong> Disk Space</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>1GB</strong> Dadicated Ram</li>
+                            <li class="list-group-item list-group-item-light"><strong>10</strong> Addon Domain</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>10</strong> Email Account</li>
+                            <li class="list-group-item list-group-item-light"><strong>24/7</strong> Support</li>
+                        </ul>
+                        <a class="sign" href="#"><i class="fa fa-hand-o-right"></i> Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="price-title2">
+                        <h2>Standerd</h2>
+                        <span>$12/Month</span>
+                    </div>
+                    <div class="price-list-item">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-light"><strong>10GB</strong> Disk Space</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>2GB</strong> Dadicated Ram</li>
+                            <li class="list-group-item list-group-item-light"><strong>20</strong> Addon Domain</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>20</strong> Email Account</li>
+                            <li class="list-group-item list-group-item-light"><strong>24/7</strong> Support</li>
+                        </ul>
+                        <a class="sign" href="#"><i class="fa fa-hand-o-right hided-icon"></i> Sign Up</a>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="price-title3">
+                        <h2>Premium</h2>
+                        <span>$24/Month</span>
+                    </div>
+                    <div class="price-list-item">
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-light"><strong>50GB</strong> Disk Space</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>8GB</strong> Dadicated Ram</li>
+                            <li class="list-group-item list-group-item-light"><strong>Umlimited</strong> Addon Domain</li>
+                            <li class="list-group-item list-group-item-secondary"><strong>Umlimited</strong> Email Account</li>
+                            <li class="list-group-item list-group-item-light"><strong>24/7</strong> Support</li>
+                        </ul>
+                        <a class="sign" href="#"><i class="fa fa-hand-o-right hided-icon"></i> Sign Up</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    &copy; Copyright. All Rights Reserved.
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/jquery.min.js"></script>
+    <script src="./js/popper.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/jquery.fancybox.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

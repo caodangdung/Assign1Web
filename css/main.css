@@ -1,0 +1,617 @@
+.top-bar {
+    background-color: black;
+    padding: 10px 0 10px 0;
+    height: 50px;
+}
+
+.phone-number {
+    margin-top: 5px;
+    color: white;
+    display: inline-block;
+}
+
+.email {
+    color: white;
+    display: inline-block;
+}
+
+.social-search {
+    float: right;
+    display: flex;
+    padding-top: 5px;
+}
+
+.social-share li {
+    font-size: 20px;
+    margin-right: 5px;
+    display: inline-block;
+}
+
+.social-share {
+    padding-right: 10px;
+}
+
+i {
+    color: white;
+}
+
+.social-share i:hover {
+    color: rgb(85, 85, 202);
+}
+
+input.search-form {
+    background: transparent;
+    border: 0 none;
+    width: 10px;
+    color: #FFF;
+    -webkit-transition: all 500ms;
+    -moz-transition: all 500ms;
+    -o-transition: all 500ms;
+    transition: all 500ms;
+}
+
+input.search-form::-webkit-input-placeholder {
+    color: transparent;
+}
+
+input.search-form:hover::-webkit-input-placeholder {
+    color: #fff;
+}
+
+input.search-form:hover {
+    width: 180px;
+}
+
+.navbar {
+    background-color: white !important;
+}
+
+.navbar-collapse {
+    flex-grow: 0;
+}
+
+.navbar-nav a:hover {
+    color: rgb(92, 92, 233) !important;
+}
+
+.navbar-nav .active a {
+    background-color: white !important;
+    color: blue !important;
+}
+
+.navbar-nav li a:hover {
+    color: rgb(73, 73, 238) !important;
+}
+
+.navbar-collapse .navbar-nav li a {
+    padding-right: 50px !important;
+}
+
+.carousel-caption {
+    text-align: left;
+}
+
+.col-image img {
+    height: 80%;
+    padding-top: 10%;
+}
+
+.col-info h1,
+h2 {
+    font-size: 200%;
+}
+
+.col-info {
+    padding-top: 20%;
+}
+
+.btn-primary {
+    font-size: 90%;
+    margin-top: 5%;
+}
+
+#my-carousel .fa {
+    padding-top: 5%;
+    background-color: blue;
+    border-radius: 30px;
+    height: 40px;
+    width: 40px;
+    line-height: 20px;
+}
+
+#my-carousel .carousel .item.active {
+    opacity: 1;
+    -webkit-transition: opacity ease-in-out 500ms;
+    -moz-transition: opacity ease-in-out 500ms;
+    -o-transition: opacity ease-in-out 500ms;
+    transition: opacity ease-in-out 500ms;
+    z-index: 1;
+}
+
+.feature {
+    background-color: whitesmoke;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.features {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.feature .top {
+    padding-bottom: 5%;
+}
+
+.feature-wrap i {
+    color: #007bff;
+    font-size: 50px;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-radius: 50px;
+    background-color: white;
+    border: 3px solid white;
+    box-shadow: inset 0 0 0 5px #f2f2f2;
+    float: left;
+    margin-right: 30px;
+}
+
+.feature-wrap i:hover {
+    background-color: #007bff;
+    color: white;
+    border: 3px solid #007bff;
+}
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 15px;
+}
+
+h4 {
+    font-size: 15px;
+}
+
+.recent {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.recent-works .row .col-xs-12 {
+    padding: 0;
+}
+
+.recent-works .row {
+    padding-bottom: 5%;
+}
+
+.recent-works-wrap {
+    position: relative;
+}
+
+.recent-works-wrap img {
+    width: 100%;
+}
+
+.recent-works-wrap h3 a,
+.recent-works-wrap a {
+    color: white !important;
+    text-decoration: none;
+}
+
+.recent-works-wrap .overlay {
+    position: absolute;
+    top: 0;
+    color: white;
+    padding: 10%;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    vertical-align: middle;
+    background-color: #007bff;
+    -webkit-transition: opacity 600ms;
+    -moz-transition: opacity 600ms;
+    -o-transition: opacity 600ms;
+    transition: opacity 600ms;
+}
+
+.recent-works-wrap:hover .overlay {
+    opacity: 1;
+}
+
+.recent-works-wrap .overlay .preview {
+    bottom: 0;
+    display: inline-block;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 0;
+    background: transparent;
+    text-align: center;
+    color: #fff;
+}
+
+
+/*/////////////////*/
+
+.service {
+    background-image: url(../images/services/bg_services.png);
+    background-size: cover;
+    background-color: black;
+}
+
+.services {
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.service-wrap {
+    background-color: white;
+    border-radius: 4px;
+    padding: 5%;
+    margin-bottom: 10%;
+    /* margin-bottom: 10%; */
+    /* margin-top: 10%; */
+}
+
+.service-wrap img {
+    float: left;
+    padding-right: 5%;
+}
+
+.service .row {
+    padding-bottom: 2%;
+}
+
+.middle {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.middle h2,
+.middle p {
+    padding-bottom: 2%;
+}
+
+.progress-wrap {
+    padding-bottom: 5%;
+}
+
+#accordion h2 {
+    padding-bottom: 5%;
+}
+
+
+/* #accordion .card .card-header {
+    background-color: white;
+} */
+
+.card-header a {
+    color: black !important;
+}
+
+.card-header span {
+    padding-left: 55%;
+}
+
+.card-header:hover a {
+    color: #007bff !important;
+}
+
+
+/* .card-header.active {
+    background-color: red !important;
+} */
+
+.pricing {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding-bottom: 5%;
+}
+
+.price-head {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.price-title1 {
+    background-color: rgb(216, 35, 35);
+    color: white;
+}
+
+.price-title2 {
+    background-color: rgb(22, 161, 22);
+    color: white;
+}
+
+.price-title3 {
+    background-color: grey;
+    color: white;
+}
+
+.price-title4 {
+    background-color: rgb(226, 148, 2);
+    color: white;
+}
+
+.pricing h2 {
+    font-size: xx-large;
+}
+
+.pricing span {
+    font-size: larger;
+}
+
+.list-group .list-group-item-light {
+    color: black;
+}
+
+.list-group .list-group-item-secondary {
+    background-color: rgb(236, 232, 232);
+    color: black;
+}
+
+.sign {
+    background-color: #007bff;
+    display: block;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sign i {
+    padding-right: 2%;
+}
+
+.sign:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.pricing .fa-hand-o-right {
+    color: white;
+}
+
+.footer {
+    background-color: black;
+    text-align: center;
+    line-height: 100px;
+    color: white;
+}
+
+
+/* ////////////////////////////// */
+
+
+/* .breadcrumb-area {
+    text-align: center;
+}
+
+.bg-color {
+    background: hsl(0, 0%, 97%) none repeat scroll 0 0;
+}
+
+.breadcrumb-title h1 {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.breadcrumb-menu ul li {
+    color: #3452ff;
+    display: inline-block;
+    font-size: 13px;
+    padding: 0 5px;
+    text-transform: capitalize;
+}
+
+.breadcrumb-menu ul li::after {
+    color: hsl(0, 0%, 80%);
+    content: "/";
+    display: inline-block;
+    float: right;
+    position: relative;
+    right: -6px;
+    top: 2px;
+}
+
+.breadcrumb-menu ul li:last-child::after {
+    display: none;
+}
+
+.breadcrumb-menu a {
+    color: hsl(0, 0%, 60%);
+    font-size: 13px;
+    font-weight: 400;
+    transition: all 0.3s ease 0s;
+} */
+
+.about-us {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f2f2f2;
+}
+
+.about-head {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.our-skill {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.our-skill-head {
+    padding-bottom: 5%;
+}
+
+.single-skill {
+    background-color: #f2f2f2;
+    border-radius: 50%;
+    font-size: 25px;
+    height: 200px;
+    width: 200px;
+    padding-top: 25%;
+    position: relative;
+}
+
+.our-skill .row {
+    padding-left: 5%;
+}
+
+.joomla-skill,
+.html-skill,
+.css-skill,
+.wp-skill {
+    position: absolute;
+    height: 200px;
+    width: 200px;
+    bottom: 0;
+    border-radius: 50%;
+    padding-top: 30%;
+    color: white;
+}
+
+.joomla-skill {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 1)), color-stop(28%, rgba(242, 242, 242, 1)), color-stop(28%, rgba(45, 125, 164, 1)));
+}
+
+.html-skill {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 1)), color-stop(9%, rgba(242, 242, 242, 1)), color-stop(9%, rgba(106, 164, 47, 1)));
+}
+
+.css-skill {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 1)), color-stop(32%, rgba(242, 242, 242, 1)), color-stop(32%, rgba(255, 189, 32, 1)));
+}
+
+.wp-skill {
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgba(242, 242, 242, 1)), color-stop(19%, rgba(242, 242, 242, 1)), color-stop(19%, rgba(219, 54, 21, 1)));
+}
+
+.team-head {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.team-item {
+    text-align: center;
+}
+
+.team-img {
+    padding-bottom: 5%;
+    width: 100%;
+}
+
+.team-social a i {
+    border-radius: 100%;
+    color: #FFFFFF;
+    height: 25px;
+    width: 25px;
+    line-height: 25px;
+}
+
+.team-social .fa-facebook {
+    background: rgb(70, 70, 224);
+}
+
+.team-social .fa-twitter {
+    background: rgb(40, 180, 245);
+}
+
+.team-social .fa-google-plus {
+    background: rgb(216, 66, 46);
+}
+
+.team .row {
+    padding-bottom: 5%;
+}
+
+.team-social {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.team-social .fa-facebook:hover,
+.team-social .fa-twitter:hover,
+.team-social .fa-google-plus:hover {
+    transform: rotate(360deg);
+    -ms-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+
+/* /////-------------Contact Page------------/////// */
+
+.contact-info {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #f2f2f2;
+}
+
+.contact-head {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.google-map iframe {
+    border-radius: 50%;
+    height: 400px;
+    width: 400px;
+}
+
+.contact-office {
+    padding-left: 10%;
+    padding-top: 6%;
+}
+
+.contact-submit {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.contact-submit-head {
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.contact-submit-form {
+    padding: 0 5% 0 5%;
+}
+
+.contact-office address p:first-child {
+    font-weight: bold;
+    font-size: larger;
+}
+
+
+/* /////------Service Page------///// */
+
+.clients-area {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+
+.clients-area-head {
+    padding-bottom: 5%;
+}
+
+.clients-area img {
+    padding-bottom: 10%;
+}
