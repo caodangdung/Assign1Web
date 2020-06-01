@@ -260,8 +260,6 @@ h4 {
     border-radius: 4px;
     padding: 5%;
     margin-bottom: 10%;
-    /* margin-bottom: 10%; */
-    /* margin-top: 10%; */
 }
 
 .service-wrap img {
@@ -291,11 +289,6 @@ h4 {
     padding-bottom: 5%;
 }
 
-
-/* #accordion .card .card-header {
-    background-color: white;
-} */
-
 .card-header a {
     color: black !important;
 }
@@ -307,11 +300,6 @@ h4 {
 .card-header:hover a {
     color: #007bff !important;
 }
-
-
-/* .card-header.active {
-    background-color: red !important;
-} */
 
 .pricing {
     text-align: center;
@@ -391,52 +379,6 @@ h4 {
 
 
 /* ////////////////////////////// */
-
-
-/* .breadcrumb-area {
-    text-align: center;
-}
-
-.bg-color {
-    background: hsl(0, 0%, 97%) none repeat scroll 0 0;
-}
-
-.breadcrumb-title h1 {
-    font-size: 20px;
-    font-weight: 700;
-    letter-spacing: 4px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-}
-
-.breadcrumb-menu ul li {
-    color: #3452ff;
-    display: inline-block;
-    font-size: 13px;
-    padding: 0 5px;
-    text-transform: capitalize;
-}
-
-.breadcrumb-menu ul li::after {
-    color: hsl(0, 0%, 80%);
-    content: "/";
-    display: inline-block;
-    float: right;
-    position: relative;
-    right: -6px;
-    top: 2px;
-}
-
-.breadcrumb-menu ul li:last-child::after {
-    display: none;
-}
-
-.breadcrumb-menu a {
-    color: hsl(0, 0%, 60%);
-    font-size: 13px;
-    font-weight: 400;
-    transition: all 0.3s ease 0s;
-} */
 
 .about-us {
     padding-top: 5%;
